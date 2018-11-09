@@ -1,0 +1,180 @@
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.logo {
+    font-size: 5vw;
+    font-weight: bold;
+    padding-left: 16px
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    width: 100%;
+
+}
+
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar li {
+    float: left;
+}
+
+#contact {
+    float: right;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+}
+
+
+footer {
+    display: none;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+.column {
+    float: left;
+    padding: 15px;
+    height: 300px;
+
+}
+
+#column1 {
+    padding-left: 45px;
+    padding-right: 18px;
+    width: 40%;
+
+}
+
+#column2 {
+    padding-left: 25px;
+    padding-right: 10px;
+    width: 30%;
+}
+
+#column3 {
+    padding-left: 2px;
+    padding-right: 30px;
+    padding-top: 20px;
+    width: 30%;
+    float: right;
+    max-width: 100%;
+}
+
+.column3 {
+    padding-right: 45px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.first p {
+    font-style: italic;
+    color: gray;
+
+}
+
+h2 {
+    font-size: 30px;
+    max-width: 90%;
+    color: #201cc3;
+    margin-bottom: 2px;
+
+}
+
+h3 {
+    font-size: 20px;
+    max-width: 90%;
+    margin-top: 3px
+}
+
+
+p {
+    max-width: 90%;
+}
+
+#schiele1 {
+    max-width: 90%;
+}
+
+#schiele2 {
+    max-width: 90%;
+}
+
+h6 {
+    font-style: italic;
+    color: gray;
+}
+
+
+.mySlides {
+    display: none;
+}
+
+
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}

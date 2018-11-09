@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.logo {
+    font-size: 5vw;
+    font-weight: bold;
+    padding-left: 16px
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    width: 100%;
+
+}
+
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar li {
+    float: left;
+}
+
+#contact {
+    float: right;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+}
+
+main {
+    list-style-type: none;
+    text-align: center;
+    margin: 40px;
+}
+
+h2 {
+    margin: 8px;
+}
+
+#email {
+    color: blue;
+}
+
+
+
+img {
+    margin-top: 0px;
+    width: 100%;
+    height: auto;
+    object-position: center;
+    align-self: flex-end;
+    opacity;
+    0,
+    1;
+
+}
+
+footer {
+    margin-bottom: 0;
+    background-color: #333;
+}
+
+footer p {
+    display: block;
+    color: lightgrey;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 12px;
+}
